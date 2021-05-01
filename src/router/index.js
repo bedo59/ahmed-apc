@@ -27,6 +27,24 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/gam3a.vue"),
   },
+  {
+    path: "/ma3had",
+    name: "ma3had",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ma3had.vue"),
+  },
+  {
+    path: "/tass2el",
+    name: "tass2el",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/tass2el.vue"),
+  },
 ];
 
 const router = new VueRouter({

@@ -1,15 +1,15 @@
 <template>
     <div>
-       <gamm3a />
+       <tas2el />
     </div>
 </template>
 
 <script>
-import gamm3a from "@/components/gamm3a.vue";
+import tas2el from "@/components/tas2el.vue";
 export default {
-    name:"gam3a",
+    name:"tass2el",
    components: {
-    gamm3a,
+    tas2el,
 }
 }
 </script>

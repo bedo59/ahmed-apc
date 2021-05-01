@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <navbar />
+     
     <div id="nav">
-      
     </div>
     <router-view />
+    <endd />
+   
   </div>
 </template>
 
@@ -32,10 +34,12 @@
 </style>
 <script>
 import navbar from "@/components/navbar.vue";
+import Endd from './components/endd.vue';
 export default {
   name: "Home",
   components: {
     navbar,
+    Endd,
   },
 };
 </script>
