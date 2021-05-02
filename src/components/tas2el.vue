@@ -152,6 +152,41 @@
                   Selected: <strong>{{ selected }}</strong>
                 </div>
                 <div>
+                  المستوي:
+                  <b-form-select class="mb-3">
+                    <!-- This slot appears above the options from 'options' prop -->
+                    <template #first>
+                      <b-form-select-option :value="null" disabled
+                        >-- Please select an option --</b-form-select-option
+                      >
+                    </template>
+
+                    <!-- These options will appear after the ones from 'options' prop -->
+                    <b-form-select-option value="C"
+                      >Option 1</b-form-select-option
+                    >
+                    <b-form-select-option value="D"
+                      >Option 2</b-form-select-option
+                    >
+                    <b-form-select-option value="D"
+                      >Option 3</b-form-select-option
+                    >
+                    <b-form-select-option value="D"
+                      >Option 4</b-form-select-option
+                    >
+                    <b-form-select-option value="D"
+                      >Option 5</b-form-select-option
+                    >
+                    <b-form-select-option value="D"
+                      >Option 6</b-form-select-option
+                    >
+                    <b-form-select-option value="C"
+                      >Option 7</b-form-select-option
+                    >
+                  </b-form-select>
+                </div>
+
+                <div>
                   <b-card bg-variant="light">
                     <b-form-group
                       label-cols-lg="3"

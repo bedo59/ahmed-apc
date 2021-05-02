@@ -12,38 +12,80 @@ const routes = [
   {
     path: "/about",
     name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
     path: "/gam3a",
     name: "gam3a",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/gam3a.vue"),
   },
   {
     path: "/ma3had",
     name: "ma3had",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/ma3had.vue"),
   },
   {
     path: "/tass2el",
     name: "tass2el",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/tass2el.vue"),
+  },
+  {
+    path: "/5admaat",
+    name: "5admaat",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/5admaat.vue"),
+  },
+  {
+    path: "/egybt",
+    name: "egybt",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/egybt.vue"),
+  },
+
+  {
+    path: "/america",
+    name: "america",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/america.vue"),
+  },
+  {
+    path: "/englandd",
+    name: "englandd",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/englandd.vue"),
+  },
+  {
+    path: "/rosyaa",
+    name: "rosyaa",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/rosyaa.vue"),
+  },
+  {
+    path: "/elsodann",
+    name: "elsodann",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/elsodann.vue"),
+  },
+  {
+    path: "/omann",
+    name: "omann",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/omann.vue"),
   },
 ];
 

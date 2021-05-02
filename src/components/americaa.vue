@@ -64,6 +64,9 @@
                           alt=""
                         />First Modal
                       </p>
+                      <router-link to="/tass2el">
+                      <b-button variant="info">قدم</b-button>
+                      </router-link>
                     </b-modal>
                   </div>
                 </a>
@@ -126,6 +129,9 @@
                           alt=""
                         />Thissssss modal has large footer buttons
                       </p>
+                      <router-link to="/tass2el">
+                      <b-button variant="info">قدم</b-button>
+                      </router-link>
                     </b-modal>
                   </div>
                 </a>
@@ -186,6 +192,9 @@
                           alt=""
                         />Vertically centered modal!
                       </p>
+                      <router-link to="/tass2el">
+                      <b-button variant="info">قدم</b-button>
+                      </router-link>
                     </b-modal>
                   </div>
                 </a>
@@ -254,6 +263,9 @@
                         Morbi leo risus, porta ac consectetur ac, vestibulum at
                         eros.
                       </p>
+                      <router-link to="/tass2el">
+                      <b-button variant="info">قدم</b-button>
+                      </router-link>
                     </b-modal>
                   </div>
                 </a>
@@ -323,7 +335,11 @@
                         class="img-fluid"
                         src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
                         alt=""
-                      />Hello From My Modal!</b-modal
+                      />Hello From My Modal!
+                      <router-link to="/tass2el">
+                      <b-button variant="info">قدم</b-button>
+                      </router-link>
+                      </b-modal
                     >
                   </div>
                 </a>
@@ -367,7 +383,7 @@
                       class="img-fluid"
                       src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
                       alt=""
-                    />جامعة القاهرة</b-button
+                    />جامعة ddddالقاهرة</b-button
                   >
 
                   <b-modal v-model="modalShow"
@@ -376,7 +392,11 @@
                       src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
                       alt=""
                     />
-                    Hello From Modal!</b-modal
+                    Hello From Modal!
+                    <router-link to="/tass2el">
+                      <b-button variant="info">قدم</b-button>
+                      </router-link>
+                    </b-modal
                   >
                 </div>
                 <div class="portfolio-caption">

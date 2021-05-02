@@ -1,15 +1,15 @@
 <template>
     <div>
-       <gamm3aa />
+      <deol />
     </div>
 </template>
 
 <script>
-import gamm3aa from "@/components/gamm3aa.vue";
+import deol from "@/components/deol.vue";
 export default {
-    name:"gam3a",
+    name:"5admaat",
    components: {
-    gamm3aa,
+    deol,
 }
 }
 </script>
