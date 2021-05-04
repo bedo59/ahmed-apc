@@ -17,10 +17,8 @@
       <section class="page-section bg-light" id="portfolio">
         <div class="container">
           <div class="text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">
-              Lorem ipsum dolor sit amet consectetur.
-            </h3>
+            <h2 class="section-heading text-uppercase">Universities</h2>
+            <h3 class="section-subheading text-muted">APC EUCATION NETWORK</h3>
           </div>
           <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -36,9 +34,7 @@
                     </div>
                   </div>
                   <div>
-                    <b-button @click="showMsgOk"
-                      >معلومات عن المدينه</b-button
-                    >
+                    <b-button @click="showMsgOk">معلومات عن المدينه</b-button>
                   </div>
 
                   <div>
@@ -47,7 +43,7 @@
                         class="img-fluid"
                         src="https://images.pexels.com/photos/461035/pexels-photo-461035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعة في أوكلاند</b-button
                     >
 
                     <b-modal
@@ -65,15 +61,14 @@
                         />First Modal
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
                 <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Threads</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Illustration
+                  <div class="portfolio-caption-heading">
+                    (The University of Auckland)
                   </div>
                 </div>
               </div>
@@ -102,9 +97,9 @@
                       <p class="my-2">
                         <img
                           class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
+                          src="../assets/tharlez.png"
                           alt=""
-                        />This modal has small footer buttons
+                        />جامعة عامة في برث، أستراليا
                       </p>
                     </b-modal>
                   </div>
@@ -112,9 +107,9 @@
                     <b-button v-b-modal.modal-footer-lg
                       ><img
                         class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
+                        src="../assets/wist.png"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعة ويسترن</b-button
                     >
 
                     <b-modal
@@ -125,20 +120,19 @@
                       <p class="my-1">
                         <img
                           class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
+                          src="../assets/tharlez.png"
                           alt=""
                         />Thissssss modal has large footer buttons
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
                 <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Explore</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Graphic Design
+                  <div class="portfolio-caption-heading">
+                    (The University of Western Australia)
                   </div>
                 </div>
               </div>
@@ -156,7 +150,9 @@
                     </div>
                   </div>
                   <div>
-                    <b-button v-b-modal.modal-no-backdrop>معلومات عن المدينه</b-button>
+                    <b-button v-b-modal.modal-no-backdrop
+                      >معلومات عن المدينه</b-button
+                    >
 
                     <b-modal
                       id="modal-no-backdrop"
@@ -169,8 +165,7 @@
                           class="img-fluid"
                           src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
                           alt=""
-                        />We've added the utility class <code>'shadow'</code>
-                        to the modal content for added effect.
+                        /><br />جامعة في أوكلاند، نيوزيلند
                       </p>
                     </b-modal>
                   </div>
@@ -181,7 +176,7 @@
                         class="img-fluid"
                         src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعة أوكلاند</b-button
                     >
 
                     <b-modal id="modal-center" centered title="BootstrapVue">
@@ -193,15 +188,14 @@
                         />Vertically centered modal!
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
                 <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Finish</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Identity
+                  <div class="portfolio-caption-heading">
+                    (The University of Auckland)
                   </div>
                 </div>
               </div>
@@ -232,12 +226,9 @@
                       <p class="my-4" :key="i">
                         <img
                           class="img-fluid"
-                          src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          src="../assets/sy.png"
                           alt=""
-                        />Cras mattis consectetur purus sit amet fermentum. Cras
-                        justo odio, dapibus ac facilisis in, egestas eget quam.
-                        Morbi leo risus, porta ac consectetur ac, vestibulum at
-                        eros.
+                        />جامعة في سيدني، أستراليا
                       </p>
                     </b-modal>
                   </div>
@@ -246,33 +237,26 @@
                     <b-button v-b-modal.modal-tall
                       ><img
                         class="img-fluid"
-                        src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        src="../assets/sy.png"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعة سيدني</b-button
                     >
 
                     <b-modal id="modal-tall" title="Overflowing Content">
                       <p class="my-4" :key="i">
-                        <img
-                          class="img-fluid"
-                          src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                          alt=""
-                        />
-                        Cras mattis consectetur purus sit amet fermentum. Cras
-                        justo odio, dapibus ac facilisis in, egestas eget quam.
-                        Morbi leo risus, porta ac consectetur ac, vestibulum at
-                        eros.
+                        <img class="img-fluid" src="../assets/sy.png" alt="" />
+                        Flinders International Study Centre مؤسسة تعليمية في
+                        أستراليا مراكز الدراسة جامعة فليندرز
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
                 <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Lines</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Branding
+                  <div class="portfolio-caption-heading">
+                    (The University of Sydney)
                   </div>
                 </div>
               </div>
@@ -290,7 +274,9 @@
                     </div>
                   </div>
                   <div>
-                    <b-button v-b-modal.modalPopover>معلومات عن المدينه</b-button>
+                    <b-button v-b-modal.modalPopover
+                      >معلومات عن المدينه</b-button
+                    >
 
                     <b-modal
                       id="modalPopover"
@@ -298,24 +284,12 @@
                       ok-only
                     >
                       <p>
-                        This<img
+                        <img
                           class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                          src="../assets/tharlez.png"
                           alt=""
-                        />
-                        <b-button
-                          v-b-popover="'Popover inside a modal!'"
-                          title="Popover"
-                          >Button</b-button
-                        >
-                        triggers a popover on click.
-                      </p>
-                      <p>
-                        This
-                        <a href="#" v-b-tooltip title="Tooltip in a modal!"
-                          >Link</a
-                        >
-                        will show a tooltip on hover.
+                        /><br />
+                        جامعة عامة في باثرست، أستراليا
                       </p>
                     </b-modal>
                   </div>
@@ -325,28 +299,26 @@
                     <b-button v-b-modal.my-modal
                       ><img
                         class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                        src="../assets/tharlez.png"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعة تشارلز ستورت</b-button
                     >
                     <!-- The modal -->
                     <b-modal id="my-modal"
                       ><img
                         class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                        src="../assets/tharlez.png"
                         alt=""
                       />Hello From My Modal!
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
-                      </b-modal
-                    >
+                    </b-modal>
                   </div>
                 </a>
                 <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Southwest</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Website Design
+                  <div class="portfolio-caption-heading">
+                    (Charles Sturt University)
                   </div>
                 </div>
               </div>
@@ -372,7 +344,7 @@
                           class="img-fluid"
                           src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
                           alt=""
-                        />hhhHello from modal!
+                        /><br />جامعة في كانبرا، أستراليا
                       </p>
                     </b-modal>
                   </div>
@@ -381,9 +353,9 @@
                   <b-button @click="modalShow = !modalShow"
                     ><img
                       class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
+                      src="../assets/uuuu.png"
                       alt=""
-                    />جامعة ddddالقاهرة</b-button
+                    /><br />جامعة استراليا الوطنية</b-button
                   >
 
                   <b-modal v-model="modalShow"
@@ -395,14 +367,12 @@
                     Hello From Modal!
                     <router-link to="/tass2el">
                       <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal
-                  >
+                    </router-link>
+                  </b-modal>
                 </div>
                 <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Window</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Photography
+                  <div class="portfolio-caption-heading">
+                    (The Australian National University)
                   </div>
                 </div>
               </div>
@@ -430,9 +400,7 @@ export default {
       // More complex structure
       const messageVNode = h("div", { class: ["foobar"] }, [
         h("p", { class: ["text-center"] }, [
-          " Flashy ",
-          h("strong", "msgBoxOk"),
-          " message ",
+          h("strong", "جامعة في أوكلاند، نيوزيلندا"),
         ]),
 
         h("b-img", {

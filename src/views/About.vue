@@ -1,6 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    
+  <div>
+    <aboout />
   </div>
 </template>
+
+<script>
+import aboout from "../components/aboout.vue";
+export default {
+  components: {
+    aboout,
+  },
+};
+</script>

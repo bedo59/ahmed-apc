@@ -1,14 +1,14 @@
 <template>
     <div>
-         <gamm3aa />
+         <m3aheed />
     </div>
 </template>
 <script>
-import gamm3aa from "@/components/gamm3aa.vue";
+import m3aheed from "@/components/m3aheed.vue";
 export default {
     name:"ma3had",
     components: {
-    gamm3aa,
+    m3aheed,
 }
 }
 </script>

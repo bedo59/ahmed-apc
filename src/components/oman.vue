@@ -36,9 +36,7 @@
                     </div>
                   </div>
                   <div>
-                    <b-button @click="showMsgOk"
-                      >معلومات عن المدينه</b-button
-                    >
+                    <b-button @click="showMsgOk">معلومات عن المدينه</b-button>
                   </div>
 
                   <div>
@@ -47,7 +45,7 @@
                         class="img-fluid"
                         src="https://images.pexels.com/photos/461035/pexels-photo-461035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعه فكتوريا</b-button
                     >
 
                     <b-modal
@@ -65,17 +63,12 @@
                         />First Modal
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Threads</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Illustration
-                  </div>
-                </div>
+                <div class="portfolio-caption"></div>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -104,7 +97,7 @@
                           class="img-fluid"
                           src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
                           alt=""
-                        />This modal has small footer buttons
+                        />تورونتو
                       </p>
                     </b-modal>
                   </div>
@@ -114,7 +107,7 @@
                         class="img-fluid"
                         src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعه يورك</b-button
                     >
 
                     <b-modal
@@ -130,17 +123,12 @@
                         />Thissssss modal has large footer buttons
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Explore</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Graphic Design
-                  </div>
-                </div>
+                <div class="portfolio-caption"></div>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -156,7 +144,9 @@
                     </div>
                   </div>
                   <div>
-                    <b-button v-b-modal.modal-no-backdrop>معلومات عن المدينه</b-button>
+                    <b-button v-b-modal.modal-no-backdrop
+                      >معلومات عن المدينه</b-button
+                    >
 
                     <b-modal
                       id="modal-no-backdrop"
@@ -169,8 +159,7 @@
                           class="img-fluid"
                           src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
                           alt=""
-                        />We've added the utility class <code>'shadow'</code>
-                        to the modal content for added effect.
+                        />فانكوفر
                       </p>
                     </b-modal>
                   </div>
@@ -181,7 +170,7 @@
                         class="img-fluid"
                         src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعة سيمون فريزر SFU</b-button
                     >
 
                     <b-modal id="modal-center" centered title="BootstrapVue">
@@ -193,17 +182,12 @@
                         />Vertically centered modal!
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Finish</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Identity
-                  </div>
-                </div>
+                <div class="portfolio-caption"></div>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
@@ -234,10 +218,7 @@
                           class="img-fluid"
                           src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                           alt=""
-                        />Cras mattis consectetur purus sit amet fermentum. Cras
-                        justo odio, dapibus ac facilisis in, egestas eget quam.
-                        Morbi leo risus, porta ac consectetur ac, vestibulum at
-                        eros.
+                        />فانكوفر
                       </p>
                     </b-modal>
                   </div>
@@ -248,7 +229,7 @@
                         class="img-fluid"
                         src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />لانجارا</b-button
                     >
 
                     <b-modal id="modal-tall" title="Overflowing Content">
@@ -264,17 +245,12 @@
                         eros.
                       </p>
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
                     </b-modal>
                   </div>
                 </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Lines</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Branding
-                  </div>
-                </div>
+                <div class="portfolio-caption"></div>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
@@ -290,7 +266,9 @@
                     </div>
                   </div>
                   <div>
-                    <b-button v-b-modal.modalPopover>معلومات عن المدينه</b-button>
+                    <b-button v-b-modal.modalPopover
+                      >معلومات عن المدينه</b-button
+                    >
 
                     <b-modal
                       id="modalPopover"
@@ -298,24 +276,12 @@
                       ok-only
                     >
                       <p>
-                        This<img
+                        <img
                           class="img-fluid"
                           src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
                           alt=""
-                        />
-                        <b-button
-                          v-b-popover="'Popover inside a modal!'"
-                          title="Popover"
-                          >Button</b-button
-                        >
-                        triggers a popover on click.
-                      </p>
-                      <p>
-                        This
-                        <a href="#" v-b-tooltip title="Tooltip in a modal!"
-                          >Link</a
-                        >
-                        will show a tooltip on hover.
+                        /><br />
+                        فانكوفر
                       </p>
                     </b-modal>
                   </div>
@@ -327,7 +293,7 @@
                         class="img-fluid"
                         src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
                         alt=""
-                      />جامعة القاهرة</b-button
+                      />جامعه غرب كندا UCW</b-button
                     >
                     <!-- The modal -->
                     <b-modal id="my-modal"
@@ -337,18 +303,12 @@
                         alt=""
                       />Hello From My Modal!
                       <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
+                        <b-button variant="info">قدم</b-button>
                       </router-link>
-                      </b-modal
-                    >
+                    </b-modal>
                   </div>
                 </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Southwest</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Website Design
-                  </div>
-                </div>
+                <div class="portfolio-caption"></div>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -372,7 +332,7 @@
                           class="img-fluid"
                           src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
                           alt=""
-                        />hhhHello from modal!
+                        /><br />فانكوفر
                       </p>
                     </b-modal>
                   </div>
@@ -383,7 +343,7 @@
                       class="img-fluid"
                       src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
                       alt=""
-                    />جامعة ddddالقاهرة</b-button
+                    />جامعه وينستون</b-button
                   >
 
                   <b-modal v-model="modalShow"
@@ -395,19 +355,54 @@
                     Hello From Modal!
                     <router-link to="/tass2el">
                       <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal
-                  >
+                    </router-link>
+                  </b-modal>
                 </div>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Window</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Photography
-                  </div>
-                </div>
+                <div class="portfolio-caption"></div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="bbb">
+        <div class="col-lg-0 col-sm-0 mb-0 mb-sm-0">
+          <div class="portfolio-item">
+            <a
+              class="portfolio-link"
+              data-toggle="modal"
+              href="#portfolioModal5"
+            >
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+                <b-button v-b-modal="'my-modal2'">معلومات عن المدينه</b-button>
+                <b-modal id="my-modal2"
+                  ><img
+                    class="img-fluid"
+                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                    alt=""
+                  /><br>فانكوفر</b-modal
+                >
+              </div>
+              <b-button v-b-modal="'my-modal1'">
+                <img
+                  class="img-fluid"
+                  src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                  alt=""
+                /><br>
+                جامعه سبروتشو
+              </b-button>
+            </a>
+            <b-modal id="my-modal1"
+              ><img
+                class="img-fluid"
+                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                alt=""
+              />Helloغغ From My Modal!</b-modal
+            >
+            <div class="portfolio-caption"></div>
+          </div>
+        </div>
         </div>
       </section>
     </div>
@@ -429,11 +424,7 @@ export default {
       });
       // More complex structure
       const messageVNode = h("div", { class: ["foobar"] }, [
-        h("p", { class: ["text-center"] }, [
-          " Flashy ",
-          h("strong", "msgBoxOk"),
-          " message ",
-        ]),
+        h("p", { class: ["text-center"] }, [h("strong", " الموقع فكتوريا")]),
 
         h("b-img", {
           props: {
