@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- About-->
     <section class="page-section" id="about">
+      <img class="img-fluid" src="../assets/mnnc.png" alt="" />
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">About</h2>
@@ -20,33 +20,19 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h2 class="subheading">احمد هارون</h2>
+                <h4>2019-2021</h4>
+                <h4 class="subheading">Our Humble Beginnings</h4>
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  بدات كطالب و اخذ مني محاولات و اخطاء لايجاد الحلول و الايجابات
-                  للعديد من الاسلئه و المعوقات: حقوق الطالب الثقافات الجديدة
-                  الشوق للاهل و الوطن اماكن العمل ثقافة التطوع فرق التوقيت و
-                  العديد من الاسلئه التي تدور في عقولنا من المستقبل الغامض بدات
-                  في العمل التعليمي التطوعي في عام ٢٠٠٦ مع مجموعه رائعة من
-                  الطلبه العرب. و كنت مستغرب من اختيارهم لمدينتي المحببة الي
-                  فانكوفر ❤️ عام ٢٠١١ بدات الافواج العربية تتدفق علي مدينتي من
-                  اجل العلم و هنا وضح جليا الحاجة الي شخص ينصح و يوضح الطريق لكل
-                  طالب جديد يريد ان يستفيد من وقته و ينجز تحصيله العلمي في افضل
-                  هيه. كمتطوع كان من الصعب ايجاد وقت كافي لاكبير عدد من الطلبة
-                  لهذا في ٢٠١٥ تم توجيه نصيحة من اخ عزيز علي ان ابدا في مشوار
-                  التعليم الاستشاري للاستفادة و الفائدة. و هكذا في اوال ٢٠١٥ تم
-                  بدء هذا الصرح للوصول الي القمه و في كل عام نواجه من العقبات ما
-                  تقوي عضدنا و تجعلنا اقوي من قبل لنمشي مضيا الي طريقنا المراد.
-                  مع هذا الوباء ABC Education Network رفضت ان ترفع الرايه و تقفل
-                  الابواب. ولاكن العكس توسعنا و بدانا في البدء لافتتاح فرعنا
-                  الثاني في ارض النيل و منها توفير فرص اكبر لوصول اعداد اكثر
-                  لمبتغاهم العلمي. دراستي و خبرتي العملية تمحورت في المحاسبة و
-                  الادراة من السوق و الجامعات الكندية. المستقبل انتم لاكن
-                  لتكونوا افضل ابداو من حيث انتهي سلفكم. خبراتنا تعدت الحدود
-                  الكندية و و صلت الي القارة الاوربية. نكون معكم الي وصلوكم الي
-                  مبتغاكم و منها نوفر لكم كل الارشادات و النصائح التي تساعدكم
-                  للوصول.
+                  We extend our thanks and gratitude to all our partners in
+                  success and progress to our customers who were the cause of
+                  success.And who are the center of our attention and we always
+                  work hard to provide the best services to them, as well as our
+                  employees who work tirelessly and their continuous and endless
+                  support to raise the level of the company and its development
+                  and obtain the prestigious position it deserves. From the very
+                  beginnings of the company,
                 </p>
               </div>
             </div>
@@ -61,25 +47,20 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h2 class="subheading">
-                  متخصص في تكنولوجيا المعلومات عباس عبدالغفور
-                </h2>
+                <h4>2021</h4>
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  متخصص في تكنولوجيا المعلومات ولد عام 1990 في المملكة العربية
-                  السعودية وحصل على درجة البكالوريوس في علوم الكمبيوتر. عمل في
-                  العديد من الشركات الرائدة في الخرطوم مثل MTN & TIRHAL. كما
-                  ساهم في تأسيس الشركات حيث عمل كمدخل للبيانات وجامع بيانات
-                  ميداني. يعمل عباس على حل المشكلات والمساهمة دائمًا في تحسين
-                  رؤية الشركة. ندي عبدالهادي فرح التنظيم والدقة هي بعض من
-                  الميزات التي تتميز بيها دكتورة ندي. ما رست الطب و عاشت في
-                  المهجر سنين فاكتسبت من الخبرات ما افادت بيها ABC Education
-                  Network دكتورة ندي عملت من قرب مع الطلبة العرب من ٢٠١٥ الي
-                  الان و تميزت بتفهمها الي اختلاف الثقافات و العادات و كيفية
-                  احتواء الصدمة الثقافية و عدم تاثيرها علي تركيز الطالب. ABC
-                  Education Network تفتخر بوجودي دكتورة ندي بين طاقمها و افادتها
-                  الي الجمع و المزيد للطلبة
+                  We provide high quality veterinary products In the company's
+                  business development department, we are keen to always provide
+                  the latest science in this field, as well as import products
+                  that carry this technology, which preserves the health of
+                  birds and animals and gives the best performance, as well as
+                  providing safe food for humans. In the administration, we also
+                  adhere to our ethics and set appropriate standards to achieve
+                  our goals and growth, as well as strict standards for
+                  employment and for our services that we provide to our valued
+                  clients.
                 </p>
               </div>
             </div>
@@ -94,90 +75,23 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h2 class="subheading">
-                  Alyaa Hassan Abd El-Fadeel.Digital marketing specialist.
-                </h2>
+                <h4>December 2021</h4>
+                <h4 class="subheading">Transition to Full Service</h4>
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  Sudanese nationality, she was born in 1989 in the Kingdom of
-                  Saudi Arabia, and grew up there. She returned with her parents
-                  to the homeland of Sudan in high school. She has liked to
-                  study Chinese language, sociology, psychology, and philosophy
-                  as well as media. She took a BA from Sudan University of
-                  Science and Technology in Public Relations and Media Now She
-                  works as an e-marketing specialist and a public relations and
-                  media organization that helps startups with different fields
-                  to emerge, build audiences and get more paying customers
-                  online. Before starting marketing, she spent five years
-                  serving customers as an in charge of sales centers for a major
-                  telecom company, MTN, helping to find solutions to customers'
-                  problems and satisfaction and achieve the largest monthly
-                  sales. After its success in dealing with clients inside the
-                  country (citizens or foreigners) face to face, now it works on
-                  the world level and is able to meet the largest number of
-                  customers. She likes it.
+                  Over the years, has established its leading position in the
+                  field of veterinary medicines and aquaculture products
+                  manufacture. Contributing an important part in success is the
+                  young, highly qualified and experienced staffs, who strives to
+                  promtly and effectively support our customer regardings
+                  technical advice, advanced breeding process, etc.
                 </p>
               </div>
             </div>
           </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img
-                class="rounded-circle img-fluid"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/about/4.jpg?raw=true"
-                alt=""
-              />
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>July 2014</h4>
-                <h4 class="subheading">Ahmed Haroun Hamed</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  started as a student, and took many trails and errors to find
-                  solutions and answers of many problems and obstacles: Student
-                  rights New cultures Home sick Work places The culture of
-                  volunteering Time difference And many wondering thoughts that
-                  revolve in our minds from the mysterious future Ahmed has
-                  started volunteering in educational in 2006 with a wonderful
-                  group of Arab students. Where, he was surprised by their
-                  choices of his beloved city, Vancouver ❤️ In 2011, Arab
-                  students began to flow to his city for the sake of Education ,
-                  and here it was clearly demonstrated the need for someone who
-                  could advise and clarify the way for them. As a volunteer, it
-                  was difficult to find enough time to accommodate the largest
-                  number of students. Therefore, in 2015, advice was given from
-                  a dear friend that he should start the journey of consulting
-                  education to get benefit and benefit others. Thus, in early
-                  2015, ABC Education Network began. Ahmed studies and practical
-                  experience focused on accounting and management from the
-                  Canadian market and universities. Every year, ABC encounter
-                  obstacles that strengthen its upper arm and makes it stronger
-                  than before, so that its could walk on its desired path. With
-                  this epidemic, ABC Education Network refused to raise the flag
-                  and close its doors. But on the contrary, it’s expanded and
-                  began to open its second branch in the Nile land, from which
-                  it provides greater opportunities for more numbers of students
-                  to reach their desire goals. Students are the future, but to
-                  enhance their lives it is better to start where their
-                  predecessor ended. ABC experiences exceeded the Canadian
-                  borders and reached the European continent. ABC will be with
-                  you to reach you to what you want, and from it we provide you
-                  with all the instructions and tips that help you reach. ABC
-                  Education Network Your future is better with us ABASS
-                  ABDALGFOOR IT specialist He has born in 1990 in Saudi Arabia
-                  and he has obtained Bachelor degree in Computer Science.
-                  Worked in various lead companies in Khartoum such as MTN &
-                  TIRHAL. Also, he has contributed in start up companies, where
-                  he has worked as data entry and field data collecter. Abbas
-                  works to solve problems and always contribute to improve the
-                  vision of the company.
-                </p>
-              </div>
-            </div>
-          </li>
+          
+           
           <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>
@@ -192,117 +106,292 @@
         </ul>
       </div>
     </section>
-    <!-- Team-->
-    <section class="page-section bg-light" id="team">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">
-            Lorem ipsum dolor sit amet consectetur.
-          </h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/team/1.jpg?raw=true"
-                alt=""
-              />
-              <h4>Alyaa Hassan Abd El-Fadeel</h4>
-              <p class="text-muted">Digital marketing specialist</p>
-             
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/team/2.jpg?raw=true"
-                alt=""
-              />
-              <h4>Ahmed Haroun Hamed</h4>
-              
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/team/2.jpg?raw=true"
-                alt=""
-              />
-              <h4>ahmed Haroun</h4>
-             
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-0">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/team/3.jpg?raw=true"
-                alt=""
-              />
-              <h4>nada farah</h4>
-              
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-              eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam
-              corporis ea, alias ut unde.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Clients-->
-    <div class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"
-              ><img
-                class="img-fluid d-block mx-auto"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/logos/creative-market.jpg?raw=true"
-                alt=""
-            /></a>
-          </div>
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"
-              ><img
-                class="img-fluid d-block mx-auto"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/logos/designmodo.jpg?raw=true"
-                alt=""
-            /></a>
-          </div>
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"
-              ><img
-                class="img-fluid d-block mx-auto"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/logos/envato.jpg?raw=true"
-                alt=""
-            /></a>
-          </div>
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"
-              ><img
-                class="img-fluid d-block mx-auto"
-                src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/logos/themeforest.jpg?raw=true"
-                alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
-
 <style scoped>
+.page-section {
+  padding: 6rem 0;
+  background-color: #acaaa3;
+}
+.page-section h2.section-heading {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h3.section-subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 9rem 0;
+  }
+}
+::-moz-selection {
+  background: #fed136;
+  text-shadow: none;
+}
+
+::selection {
+  background: #fed136;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.btn-social {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #fed136;
+  border: 0;
+}
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 2rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+  #mainNav.navbar-shrink .navbar-brand img {
+    height: 1.5rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://images.pexels.com/photos/4472968/pexels-photo-4472968.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+#portfolio .portfolio-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 209, 54, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.portfolio-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.portfolio-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -430,128 +519,37 @@
     padding: 0 30px 20px 20px;
     text-align: left;
   }
-}
-@media (min-width: 992px) {
-  .timeline > li {
-    min-height: 150px;
+  @media (min-width: 1200px) {
+    .timeline > li {
+      min-height: 170px;
+    }
+    .timeline > li .timeline-panel {
+      padding: 0 20px 20px 100px;
+    }
+    .timeline > li .timeline-image {
+      width: 170px;
+      height: 170px;
+      margin-left: -85px;
+    }
+    .timeline > li .timeline-image h4 {
+      margin-top: 40px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+      padding: 0 100px 20px 20px;
+    }
   }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px;
+  .team-member {
+    margin-bottom: 3rem;
+    text-align: center;
   }
-  .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
-  .timeline > li .timeline-image h4 {
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 30px;
+  .team-member h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 20px 20px;
-  }
-}
-@media (min-width: 1200px) {
-  .timeline > li {
-    min-height: 170px;
-  }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
-  }
-  .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
-  }
-  .timeline > li .timeline-image h4 {
-    margin-top: 40px;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
-  }
-}
-.team-member {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-.team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
-.team-member h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
-
-section#contact {
-  background-color: #212529;
-  background-image: url("https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/dist/assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-section#contact .section-heading {
-  color: #fff;
-}
-section#contact form#contactForm .form-group {
-  margin-bottom: 1.5rem;
-}
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
-section#contact form#contactForm .form-group input.form-control {
-  height: auto;
-}
-section#contact form#contactForm .form-group-textarea {
-  height: 100%;
-}
-section#contact form#contactForm .form-group-textarea textarea {
-  height: 100%;
-  min-height: 10rem;
-}
-section#contact form#contactForm p.help-block {
-  margin: 0;
-}
-section#contact form#contactForm .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-
-.footer {
-  text-align: center;
-  font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 </style>

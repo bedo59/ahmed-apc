@@ -1,416 +1,44 @@
 <template>
-  <div>
+  <div >
     <b-card
       overlay
-      img-src="https://picsum.photos/900/250/?image=3"
+      img-src="https://lh3.googleusercontent.com/proxy/WS3X4hUXozRXTnRBbzf_urZ-OJo5QbeRAp3C2qvybsfL92zZiqSaYDUgULsd2fcNa7FHePVfSPT1SGuc-jEWrK9VhW2890ZNmA"
       img-alt="Card Image"
       text-variant="white"
-      title="Image Overlay"
-      sub-title="Subtitle"
+     
     >
-      <b-card-text>
-        Some quick example text to build on the card and make up the bulk of the
-        card's content.
-      </b-card-text>
     </b-card>
-    <div class="bbb">
+    <div class="mk">
       <section class="page-section bg-light" id="portfolio">
         <div class="container">
           <div class="text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">
-              Lorem ipsum dolor sit amet consectetur.
-            </h3>
+            <h2 class="section-heading text-uppercase">Products</h2>
           </div>
           <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal1"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <b-button @click="showMsgOk">معلومات عن المدينه</b-button>
-                  </div>
-
-                  <div>
-                    <b-button v-b-modal.modal-multi-1
-                      ><img
-                        class="img-fluid"
-                        src="https://images.pexels.com/photos/461035/pexels-photo-461035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                        alt=""
-                      />جامعة بايلور</b-button
-                    >
-
-                    <b-modal
-                      id="modal-multi-1"
-                      size="lg"
-                      title="First Modal"
-                      ok-only
-                      no-stacking
-                    >
-                      <p class="my-2">
-                        <img
-                          class="img-fluid"
-                          src="https://images.pexels.com/photos/461035/pexels-photo-461035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                          alt=""
-                        />First Modal
-                      </p>
-                      <router-link to="/tass2el">
-                        <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal>
-                  </div>
-                </a>
-                <div class="portfolio-caption">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal2"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <b-button v-b-modal.modal-footer-sm
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal
-                      id="modal-footer-sm"
-                      title="BootstrapVue"
-                      button-size="sm"
-                    >
-                      <p class="my-2">
-                        <img
-                          class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
-                          alt=""
-                        />جامعة في شيكاغو، إلينوي
-                      </p>
-                    </b-modal>
-                  </div>
-                  <div>
-                    <b-button v-b-modal.modal-footer-lg
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
-                        alt=""
-                      />جامعة دي بول</b-button
-                    >
-
-                    <b-modal
-                      id="modal-footer-lg"
-                      title="BootstrapVue"
-                      button-size="lg"
-                    >
-                      <p class="my-1">
-                        <img
-                          class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/src/assets/img/portfolio/02-full.jpg?raw=true"
-                          alt=""
-                        />Thissssss modal has large footer buttons
-                      </p>
-                      <router-link to="/tass2el">
-                        <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal>
-                  </div>
-                </a>
-                <div class="portfolio-caption">
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal3"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <b-button v-b-modal.modal-no-backdrop
-                      >معلومات عن المدينه</b-button
-                    >
-
-                    <b-modal
-                      id="modal-no-backdrop"
-                      hide-backdrop
-                      content-class="shadow"
-                      title="BootstrapVue"
-                    >
-                      <p class="my-2">
-                        <img
-                          class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
-                          alt=""
-                        />جامعة في ويست هارتفورد، كونيتيكت
-                      </p>
-                    </b-modal>
-                  </div>
-
-                  <div>
-                    <b-button v-b-modal.modal-center
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
-                        alt=""
-                      />جامعة هارتفورد</b-button
-                    >
-
-                    <b-modal id="modal-center" centered title="BootstrapVue">
-                      <p class="my-4">
-                        <img
-                          class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/03-thumbnail.jpg?raw=true"
-                          alt=""
-                        />Vertically centered modal!
-                      </p>
-                      <router-link to="/tass2el">
-                        <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal>
-                  </div>
-                </a>
-                <div class="portfolio-caption">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal4"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <div></div>
-                  <div>
-                    <b-button v-b-modal.modal-scrollable
-                      >معلومات عن المدينه</b-button
-                    >
-
-                    <b-modal
-                      id="modal-scrollable"
-                      scrollable
-                      title="Scrollable Content"
-                    >
-                      <p class="my-4" :key="i">
-                        <img
-                          class="img-fluid"
-                          src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                          alt=""
-                        />جامعة في هاريسونبورغ، فرجينيا
-                      </p>
-                    </b-modal>
-                  </div>
-
-                  <div>
-                    <b-button v-b-modal.modal-tall
-                      ><img
-                        class="img-fluid"
-                        src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                        alt=""
-                      />جامعة جيمس ماديسون</b-button
-                    >
-
-                    <b-modal id="modal-tall" title="Overflowing Content">
-                      <p class="my-4" :key="i">
-                        <img
-                          class="img-fluid"
-                          src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                          alt=""
-                        />
-                        Cras mattis consectetur purus sit amet fermentum. Cras
-                        justo odio, dapibus ac facilisis in, egestas eget quam.
-                        Morbi leo risus, porta ac consectetur ac, vestibulum at
-                        eros.
-                      </p>
-                      <router-link to="/tass2el">
-                        <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal>
-                  </div>
-                </a>
-                <div class="portfolio-caption">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                 <a
                   class="portfolio-link"
                   data-toggle="modal"
                   href="#portfolioModal5"
                 >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <b-button v-b-modal.modalPopover
-                      >معلومات عن المدينه</b-button
-                    >
-
-                    <b-modal
-                      id="modalPopover"
-                      title="Modal with Popover"
-                      ok-only
-                    >
-                      <p>
-                        <img
-                          class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                          alt=""
-                        />
-                        <br />
-                        جامعة خاصة في ناشفيل، تينيسي
-                      </p>
-                    </b-modal>
-                  </div>
-
-                  <div>
-                    <!-- Using modifiers -->
-                    <b-button v-b-modal.my-modal
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      />Lipscomb University</b-button
-                    >
-                    <!-- The modal -->
-                    <b-modal id="my-modal"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      />Hello From My Modal!
-                      <router-link to="/tass2el">
-                        <b-button variant="info">قدم</b-button>
-                      </router-link>
-                    </b-modal>
-                  </div>
-                </a>
-                <div class="portfolio-caption">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal6"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <b-button v-b-modal.modal-1>معلومات عن المدينه</b-button>
-
-                    <b-modal id="modal-1" title="BootstrapVue">
-                      <p class="my-4">
-                        <img
-                          class="img-fluid"
-                          src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
-                          alt=""
-                        />جامعة في بوكا راتون، فلوريدا
-                      </p>
-                    </b-modal>
-                  </div>
-                </a>
-                <div>
-                  <b-button @click="modalShow = !modalShow"
-                    ><img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
-                      alt=""
-                    />جامعة لين</b-button
-                  >
-
-                  <b-modal v-model="modalShow"
-                    ><img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/06-thumbnail.jpg?raw=true"
-                      alt=""
-                    />
-                    Hello From Modal!
-                    <router-link to="/tass2el">
-                      <b-button variant="info">قدم</b-button>
-                    </router-link>
-                  </b-modal>
-                </div>
-                <div class="portfolio-caption">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal7'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal7"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />فانكوفر</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal6'">
+                  <b-button variant="danger">
+                     <b-button v-b-modal="'my-modal303'">
                     <img
                       class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                      src="../assets/metnos.png"
                       alt=""
                     /><br />
-                    (Long Island University Brooklyn)
+                    MENTOS
+                  </b-button>
                   </b-button>
                 </a>
-                <b-modal id="my-modal6"
+                <b-modal id="my-modal303"
                   ><img
                     class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                    src="../assets/metnos.png"
                     alt=""
-                  />Helloغغ From My Modal!</b-modal
+                  />MENTOS</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
@@ -422,246 +50,56 @@
                   data-toggle="modal"
                   href="#portfolioModal5"
                 >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal9'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal9"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />كريستي تكساس</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal10'">
+                  <b-button variant="danger">
+                     <b-button v-b-modal="'my-modal302'">
                     <img
                       class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                      src="../assets/pro.png"
                       alt=""
                     /><br />
-                    جامعة إيه أند إم تكساس ، كوربوس
+                    PRO AMINOVIT
+                  </b-button>
                   </b-button>
                 </a>
-                <b-modal id="my-modal10"
+                <b-modal id="my-modal302"
                   ><img
                     class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                    src="../assets/pro.png"
                     alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal11'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal11"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في بيلينغام، واشنطن</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal12'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    Western Washington University
-                  </b-button>
-                </a>
-                <b-modal id="my-modal12"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal13'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal13"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة عامة في فورت كولنز، كولورادو</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal14'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    جامعة ولاية كولورادو
-                  </b-button>
-                </a>
-                <b-modal id="my-modal14"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal15'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal15"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في ماديسون، نيو جيرسي</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal16'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    جامعة درو
-                  </b-button>
-                </a>
-                <b-modal id="my-modal16"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal18'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal18"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في فيرفاكس، فرجينيا</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal19'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    جامعة جورج ميسن
-                  </b-button>
-                </a>
-                <b-modal id="my-modal19"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal21'"
-                      >معلومات المدينه</b-button
-                    >
-                    <b-modal id="my-modal21"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة خاصة في مقاطعة ناسو، نيويورك</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal20'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    جامعة هوفسترا
-                  </b-button>
-                </a>
-                <b-modal id="my-modal20"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
+                  />PRO AMINOVIT</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
             </div>
 
+           <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  data-toggle="modal"
+                  href="#portfolioModal5"
+                >
+                  <b-button variant="danger">
+                     <b-button v-b-modal="'my-modal301'">
+                    <img
+                      class="img-fluid"
+                      src="../assets/he.png"
+                      alt=""
+                    /><br />
+                   HEPACARNITINE
+                  </b-button>
+                  </b-button>
+                </a>
+                <b-modal id="my-modal301"
+                  ><img
+                    class="img-fluid"
+                    src="../assets/he.png"
+                    alt=""
+                  /> HEPACARNITINE</b-modal
+                >
+                <div class="portfolio-caption"></div>
+              </div>
+            </div>
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                 <a
@@ -669,41 +107,27 @@
                   data-toggle="modal"
                   href="#portfolioModal5"
                 >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal23'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal23"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في هنغتينغتون، فيرجينيا الغربية</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal24'">
+                  <b-button variant="danger">
+                     <b-button v-b-modal="'my-modal3011'">
                     <img
                       class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                      src="../assets/ol.png"
                       alt=""
                     /><br />
-                    جامعة مارشال
+                    Oligo Extra
+                  </b-button>
                   </b-button>
                 </a>
-                <b-modal id="my-modal24"
+                <b-modal id="my-modal3011"
                   ><img
                     class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                    src="../assets/ol.png"
                     alt=""
-                  />Helloغغ From My Modal!</b-modal
+                  /> Oligo Extra</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
             </div>
-
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                 <a
@@ -711,41 +135,27 @@
                   data-toggle="modal"
                   href="#portfolioModal5"
                 >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal25'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal25"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة بحثية في توسكالوسا، ألاباما</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal26'">
+                  <b-button variant="danger">
+                     <b-button v-b-modal="'my-modal301w'">
                     <img
                       class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                      src="../assets/ca.png"
                       alt=""
                     /><br />
-                    جامعة ألاباما
+                    Catomax
+                  </b-button>
                   </b-button>
                 </a>
-                <b-modal id="my-modal26"
+                <b-modal id="my-modal301w"
                   ><img
                     class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                    src="../assets/ca.png"
                     alt=""
-                  />Helloغغ From My Modal!</b-modal
+                  />Catomax</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
             </div>
-
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                 <a
@@ -753,252 +163,28 @@
                   data-toggle="modal"
                   href="#portfolioModal5"
                 >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal27'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal27"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في سانت لويس، ميزوري</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal28'">
+                  <b-button variant="danger">
+                     <b-button v-b-modal="'my-modal301e'">
                     <img
                       class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                      src="../assets/di1.png"
                       alt=""
                     /><br />
-                    جامعة سانت لويس
+                    DINAMINERAL
+                  </b-button>
                   </b-button>
                 </a>
-                <b-modal id="my-modal28"
+                <b-modal id="my-modal301e"
                   ><img
                     class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
+                    src="../assets/di1.png"
                     alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal29'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal29"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في بوسطن، ماساتشوستس</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal30'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    Suffolk University
-                  </b-button>
-                </a>
-                <b-modal id="my-modal30"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal31'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal31"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في تكسون، أريزونا</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal32'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    (The University of Arizona)
-                  </b-button>
-                </a>
-                <b-modal id="my-modal32"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-             <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal237'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal237"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في تامبا، فلوريدا</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal283'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                    جامعة جنوب فلوريدا
-                  </b-button>
-                </a>
-                <b-modal id="my-modal283"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal66'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal66"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة عامة في بولمان، واشنطن</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal56'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                   (Washington State University)
-                  </b-button>
-                </a>
-                <b-modal id="my-modal56"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                    <b-button v-b-modal="'my-modal09'"
-                      >معلومات عن المدينه</b-button
-                    >
-                    <b-modal id="my-modal09"
-                      ><img
-                        class="img-fluid"
-                        src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                        alt=""
-                      /><br />جامعة في كينت، أوهايو</b-modal
-                    >
-                  </div>
-                  <b-button v-b-modal="'my-modal08'">
-                    <img
-                      class="img-fluid"
-                      src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                      alt=""
-                    /><br />
-                   (Kent State University)
-                  </b-button>
-                </a>
-                <b-modal id="my-modal08"
-                  ><img
-                    class="img-fluid"
-                    src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/portfolio/05-thumbnail.jpg?raw=true"
-                    alt=""
-                  />Helloغغ From My Modal!</b-modal
+                  />DINAMINERAL</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
             </div>
           </div>
-          
-         
         </div>
       </section>
     </div>
@@ -1011,38 +197,11 @@ export default {
       modalShow: false,
     };
   },
-  methods: {
-    showMsgOk() {
-      const h = this.$createElement;
-      // Using HTML string
-      const titleVNode = h("div", {
-        domProps: { innerHTML: "Title from <i>HTML<i> string" },
-      });
-      // More complex structure
-      const messageVNode = h("div", { class: ["foobar"] }, [
-        h("p", { class: ["text-center"] }, [
-          h("strong", "جامعة خاصة في واكو، تكساس"),
-        ]),
-
-        h("b-img", {
-          props: {
-            src:
-              "https://images.pexels.com/photos/461035/pexels-photo-461035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            thumbnail: true,
-            center: true,
-            fluid: true,
-            rounded: "circle",
-          },
-        }),
-      ]);
-      // We must pass the generated VNodes as arrays
-      this.$bvModal.msgBoxOk([messageVNode], {
-        title: [titleVNode],
-        buttonSize: "sm",
-        centered: true,
-        size: "sm",
-      });
-    },
-  },
 };
 </script>
+<style scoped>
+.mk{
+  background-color: burlywood;
+  color: rgb(126, 125, 125);
+}
+</style>

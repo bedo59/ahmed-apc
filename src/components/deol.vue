@@ -1,114 +1,114 @@
 <template>
-  <div>
-    <div>
-      <b-img
-        src="https://picsum.photos/1024/400/?image=41"
-        fluid
-        alt="Responsive image"
-      ></b-img>
-    </div>
-    <div>
-      <b-card>
-        <b-media>
-          <template #aside>
-            <b-img
-              blank
-              blank-color="#ccc"
-              width="64"
-              alt="placeholder"
-            ></b-img>
-          </template>
+  <div class="mv">
+    <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Agents</h2>
+          <h3>Big companies</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-toggle="modal"
+                href="#portfolioModal4"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <b-button to="/rosyaa" variant="danger">
+                  <img
+                    class="img-fluid"
+                    src="https://product.statnano.com/resource/amar_university_world/files/images/21/1/thumbnail_69454725556c75c5ad7a5452a66f14d5.jpg"
+                    alt=""
+                  />
+                </b-button>
+              </a>
+              <div class="bbb">
+                <b-card
+                  title="APA UNITED TECHNOLOGY COMPOANY"
+                  tag="article"
+                  style="max-width: 60rem"
+                  class="mb-2"
+                >
+                  <b-card-text>
+                    APA manufactures around 300 products that are produced and
+                    controlled in a strict process. In particular, the quality
+                    is assured according to GMP-WHO standard. With the motto of
+                    True Value - True Success, APA deserves to be a reliable
+                    partner to work with and develop the company together.
+                  </b-card-text>
 
-          <h2 class="mt-0">استشارات</h2>
-          <p>
-            مكتبنا يوفر لكم معلومات لحياتكم اليومية ان كانت دراسية او عملية او
-            معيشة خبرتتا في الحياة الكندية خلال اخر ٢٥ سنة يتخللها جميع نطاق
-            الحياة لجعل إقامتكم بيننا اسعد. اين كانت الأسباب شركائنا من النواحي
-            الاقتصادية و القانونية و اللوجستية تجعل مكتبنا هدف لكل الاحباب. كل
-            ما نستطيع ان نعدكم به ان ABC Education Network يسعي جاهداً لخدمتكم
-            لتحقيق اهدافكم.
-          </p>
+                  <b-button to="/rosyaa" variant="primary">Go somewhere</b-button>
+                </b-card>
+              </div>
+            </div>
+          </div>
 
-          <b-media> </b-media>
-        </b-media>
-      </b-card>
-    </div>
-    <div>
-      <b-img
-        src="https://picsum.photos/1024/400/?image=41"
-        fluid
-        alt="Responsive image"
-      ></b-img>
-    </div>
-    <div>
-      <b-card>
-        <b-media>
-          <template #aside>
-            <b-img
-              blank
-              blank-color="#ccc"
-              width="64"
-              alt="placeholder"
-            ></b-img>
-          </template>
+          <div class="col-lg-8 col-sm-6 mb-4 mb-sm-0">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-toggle="modal"
+                href="#portfolioModal5"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <b-button variant="danger" to="/omann">
+                 <img
+                    class="img-fluid"
+                    src="https://nhadatcanthoinfo.vn/wp-content/uploads/2021/03/Logo-Thien-Quan-Group-300x300.png"
+                    alt=""
+                  />
+                </b-button>
+              </a>
+            </div>
+            <div class="bbb">
+              <b-card
+                title="Thien Quaan company"
+                tag="article"
+                style="max-width: 40rem"
+                class="mb-8"
+              >
+                <b-card-text>
+                  THIEN QUAN was established in 2012 and located in industrial
+                  park Tra Noc I, Binh Thuy district, Can Tho city, Vietnam. In
+                  2015, Thien Quan Joint Stock Company has established a
+                  veterinary and aquaculture medicine factory in compliance with
+                  the international standard of the World Health Organization-
+                  GMP-WHO standard. Thien Quan offer a wide portfolio of
+                  veterinary medicine, nutritions, complementary feed and
+                  aquatic products with appropriate packaging and serving to
+                  address all the needs of farms and livestock households. The
+                  quality of our products has been highly appreciated and
+                  accepted in Vietnam and other foreign countries thanks to
+                  their therapeutic significance and economical features.
+                </b-card-text>
 
-          <h2 class="mt-0">المعاهد و الجامعات</h2>
-          <p>
-            لا تقتصر خدمتنا علي تسجيلكم في اي مكان ولاكن علي ايجاد المكان
-            المناسب بما يتناسب مع طموح اي شخص علي حده. ABC Education Network
-            تؤمن بان كل شخص يختلف عن الاخر و ان حاجاتك تختلف عن اي شخص آخر لهذا
-            نحن نفصل لك طريقك الدراسي بما هو لك و ليس للجميع. حدود علاقتنا مع
-            المعاهد و الجامعات تتعدي خطوط الحدود الكندية و تتنقل بين سهول
-            استراليا و نيوزلندا و ضفاف القارة العجوزة و ترسي في ميناء الولايات
-            المتحدة . تواصلوا معنا لتسهيل اختياراتكم و إضفاء الراحة للبال من
-            كثرة الاختيار.
-          </p>
-        </b-media>
-      </b-card>
-    </div>
-    <div>
-      <b-img
-        src="https://picsum.photos/1024/400/?image=41"
-        fluid
-        alt="Responsive image"
-      ></b-img>
-    </div>
-    <div>
-      <b-card>
-        <b-media>
-          <template #aside>
-            <b-img
-              blank
-              blank-color="#ccc"
-              width="64"
-              alt="placeholder"
-            ></b-img>
-          </template>
-
-          <h2 class="mt-0">السكن</h2>
-          <p>
-            اين ماكنت للدراسة نوفر لك السكن المناسب لك و لي احبائك معضلة السكن
-            تورق كل شخص يحل في مكان جديد لهذا ABC Education Network تعاونت مع
-            افضل الشركات للتوفير السكن للطالب و ايضا لضمان ذلك موثق كل المتطلبات
-            و الشروط قبل الموافقة لتاكيد حصول الطالب علي المكان المناسب له و
-            الاجواء الي تتناسب مع عمره مستشار تعليمي خبرتنا في المجال التعليمي
-            يتميز لاكثر من عقود فمنا من درس في سهول اوروبا القديمة و منا من درس
-            في ربوع و ضفاف كندا الخلابه و منا من درس وترعرع علي ضفاف نهر النيل
-            تمازج ثقفاتنا و تعليمنا يجعلنا نفهم الطالب حيث ماكان. فترة الدراسه
-            هي من اصعب و اجمل فترات الحياه في عمر اي شخص منا هي الفترة التي
-            تتضمن بناء القاعدة لمستقبل باهر او صعوبات مستمرة قرارك سيكون له
-            توابع لسنوات طويلة لهذا ABC Education Network يعمل معك لتقديم كل
-            المعلومات و النصايح و الخبرات التي تجعل من اختيارك هو الانسب.
-            ملحوظة: نحن لانختار مستقبلك او نحدد لك المسار نحن نوضح لك المعلومات
-            لنجعل القار المنبعث من داخلك يكون مبني علي اسس تعتمد عليها لبناء
-            حياتك المخيم الصيفي هذا نو المستقبل لجيل الغد كثير منا لا ينمي الثقة
-            و الاعتماد علي النفس لاطفالنا في فترة مبكره اثبتت الدراسات ان اعداد
-            الطفل من فترة مبكرة ياثر علي شخصيته و ادراكه لمستقبله اكثر من اقرانه
-            ABC Education Network توفر لك افضل المخيمات الصفية لاطفالك و
-            مستقبلهم
-          </p>
-        </b-media>
-      </b-card>
-    </div>
+                <b-button to="/omann" variant="primary">Go somewhere</b-button>
+              </b-card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About-->
   </div>
 </template>
+<style scoped>
+.mv {
+  margin: 25px;
+  padding: 30px;
+  background-color: rgb(131, 109, 81);
+  color: rgb(131, 109, 81);
+}
+.bbb {
+  margin: 10px;
+}
+</style>

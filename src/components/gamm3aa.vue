@@ -3,7 +3,7 @@
     <div>
       <b-card
         overlayblob
-        img-src="https://picsum.photos/1024/400/?image=41"
+        img-src="https://thumbs.dreamstime.com/b/graduates-people-throw-square-academic-cap-oxford-cap-vector-illustration-eps-82281827.jpg"
         img-alt="Card Image"
         text-variant="white"
         title="Image Overlay"
