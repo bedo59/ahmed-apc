@@ -181,6 +181,7 @@
         </div>
       </section>
     </div>
+    <b-button to="/elsodann">all products</b-button>
   </div>
 </template>
 <script>

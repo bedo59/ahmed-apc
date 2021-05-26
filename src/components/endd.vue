@@ -24,22 +24,7 @@
           </div>
          
           
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="card bg-secondary border-0">
-              <div class="card-body text-center">
-              <h5 class="card-title text-white display-4" style="font-size:30px">Sochial Medya :</h5>
-          
-                   <b-button variant="primary">facebook</b-button>|
-                
-                  <b-button variant="info">twiiter</b-button>|
-                
-                  <b-button variant="danger">youtube</b-button>
-                
-                  
-                
-              </div>
-            </div>
-          </div>  
+            
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card bg-secondary border-0">
               <div class="card-body text-center">
