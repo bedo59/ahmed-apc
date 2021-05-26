@@ -2,7 +2,7 @@
   <div>
     <b-card
       overlay
-      img-src="https://lh3.googleusercontent.com/proxy/WS3X4hUXozRXTnRBbzf_urZ-OJo5QbeRAp3C2qvybsfL92zZiqSaYDUgULsd2fcNa7FHePVfSPT1SGuc-jEWrK9VhW2890ZNmA"
+      img-src="https://lh3.googleusercontent.com/proxy/UvoTWo5wlImdF40QForTCPiQaTIopW8JaV60DZocCgl94PX2cEnYNse64N9PhjQCZunF8PsL8-P1cLM7A8MmLUQfGB1sXT_i3w"
       img-alt="Card Image"
       text-variant="white"
     >
