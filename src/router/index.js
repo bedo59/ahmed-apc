@@ -16,13 +16,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
-  {
-    path: "/gam3a",
-    name: "gam3a",
-
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/gam3a.vue"),
-  },
+  
   {
     path: "/ma3had",
     name: "ma3had",
@@ -44,13 +38,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/5admaat.vue"),
   },
-  {
-    path: "/egybt",
-    name: "egybt",
-
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/egybt.vue"),
-  },
+  
 
   {
     path: "/america",
@@ -59,13 +47,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/america.vue"),
   },
-  {
-    path: "/englandd",
-    name: "englandd",
-
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/englandd.vue"),
-  },
+  
   {
     path: "/rosyaa",
     name: "rosyaa",
