@@ -18,7 +18,7 @@
             <div class="card bg-secondary border-0">
               <div class="card-body text-center">
                 <h5 class="card-title text-white display-4" style="font-size:30px">phone :</h5>
-                <a class="text-light d-block lead" style="margin-left: -20px" > +20 102 999 7448</a>
+                <a class="text-light d-block lead" style="margin-left: -20px" > 01102003990</a>
               </div>
             </div>
           </div>

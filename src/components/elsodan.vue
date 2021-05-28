@@ -2,7 +2,7 @@
   <div>
     <b-card
       overlay
-      img-src="https://lh3.googleusercontent.com/proxy/UvoTWo5wlImdF40QForTCPiQaTIopW8JaV60DZocCgl94PX2cEnYNse64N9PhjQCZunF8PsL8-P1cLM7A8MmLUQfGB1sXT_i3w"
+      img-src="https://thumbs.dreamstime.com/b/products-colorful-stuck-stripes-text-alphabets-written-over-background-79309192.jpg"
       img-alt="Card Image"
       text-variant="white"
     >
@@ -154,13 +154,41 @@
                   href="#portfolioModal5"
                 >
                   <b-button variant="danger">
+                    <b-button v-b-modal="'my-modal301e'">
+                      <img
+                        class="img-fluid"
+                        src="../assets/di1.png"
+                        alt=""
+                      /><br />
+                      DINAMINERAL
+                    </b-button>
+                  </b-button>
+                </a>
+                <b-modal id="my-modal301e"
+                  ><img
+                    class="img-fluid"
+                    src="../assets/di1.png"
+                    alt=""
+                  />DINAMINERAL</b-modal
+                >
+                <div class="portfolio-caption"></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  data-toggle="modal"
+                  href="#portfolioModal5"
+                >
+                  <b-button variant="danger">
                     <b-button v-b-modal="'my-modal30q1w'">
                       <img
                         class="img-fluid"
                         src="../assets/koooo.png"
                         alt=""
                       /><br />
-                      Catomax
+                      NUVORENAL
                     </b-button>
                   </b-button>
                 </a>
@@ -169,7 +197,7 @@
                     class="img-fluid"
                     src="../assets/koooo.png"
                     alt=""
-                  />Catomax</b-modal
+                  /> NUVORENAL</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
@@ -188,7 +216,7 @@
                         src="../assets/vvvv.png"
                         alt=""
                       /><br />
-                      Catomax
+                      Electrolytes p
                     </b-button>
                   </b-button>
                 </a>
@@ -197,7 +225,7 @@
                     class="img-fluid"
                     src="../assets/vvvv.png"
                     alt=""
-                  />Catomax</b-modal
+                  /> Electrolytes p</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
@@ -216,7 +244,7 @@
                         src="../assets/mjjj.png"
                         alt=""
                       /><br />
-                      Catomax
+                      nuvosel
                     </b-button>
                   </b-button>
                 </a>
@@ -225,36 +253,7 @@
                     class="img-fluid"
                     src="../assets/mjjj.png"
                     alt=""
-                  />Catomax</b-modal
-                >
-                <div class="portfolio-caption"></div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal5"
-                >
-                  <b-button variant="danger">
-                    <b-button v-b-modal="'my-modal301e'">
-                      <img
-                        class="img-fluid"
-                        src="../assets/di1.png"
-                        alt=""
-                      /><br />
-                      DINAMINERAL
-                    </b-button>
-                  </b-button>
-                </a>
-                <b-modal id="my-modal301e"
-                  ><img
-                    class="img-fluid"
-                    src="../assets/di1.png"
-                    alt=""
-                  />DINAMINERAL</b-modal
+                  />nuvosel</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
