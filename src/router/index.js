@@ -69,6 +69,20 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/omann.vue"),
   },
+  {
+    path: "/Medical supplies",
+    name: "Medical supplies",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Medical supplies.vue"),
+  },
+  {
+    path: "/Medical consulting",
+    name: "Medical consulting",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Medical consulting.vue"),
+  },
 ];
 
 const router = new VueRouter({

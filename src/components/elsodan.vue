@@ -230,6 +230,7 @@
                 <div class="portfolio-caption"></div>
               </div>
             </div>
+            
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                 <a
@@ -258,6 +259,7 @@
                 <div class="portfolio-caption"></div>
               </div>
             </div>
+            
           </div>
         </div>
       </section>

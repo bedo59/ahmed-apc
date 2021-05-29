@@ -8,7 +8,10 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item to="/about">ABOUT US</b-nav-item>
-        <b-nav-item to="/elsodann">PRODUCTS</b-nav-item>
+        <b-nav-item to="/elsodann">Veterinary medicine</b-nav-item>
+        <b-nav-item to="/Medical supplies">MEDICAL SUPPLIES</b-nav-item>
+         <b-nav-item to="/Medical consulting">Medical consulting</b-nav-item>
+          <b-nav-item to="/Medical consulting">Human medicine</b-nav-item>
         <b-nav-item to="/ma3had">AGENTS</b-nav-item>
         <b-nav-item to="/tass2el">CONTACT US</b-nav-item>
         
