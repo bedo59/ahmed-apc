@@ -28,6 +28,93 @@
         </b-jumbotron>
       </div>
     </div>
+    <div class="row">
+    <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  data-toggle="modal"
+                  href="#portfolioModal5"
+                >
+                  <b-button variant="danger">
+                    <b-button v-b-modal="'my-modal30q1w'">
+                      <img
+                        class="img-fluid"
+                        src="../assets/koooo.png"
+                        alt=""
+                      /><br />
+                      NUVORENAL
+                    </b-button>
+                  </b-button>
+                </a>
+                <b-modal id="my-modal30q1w"
+                  ><img
+                    class="img-fluid"
+                    src="../assets/koooo.png"
+                    alt=""
+                  /> NUVORENAL</b-modal
+                >
+                <div class="portfolio-caption"></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  data-toggle="modal"
+                  href="#portfolioModal5"
+                >
+                  <b-button variant="danger">
+                    <b-button v-b-modal="'my-modal301ww'">
+                      <img
+                        class="img-fluid"
+                        src="../assets/vvvv.png"
+                        alt=""
+                      /><br />
+                      Electrolytes p
+                    </b-button>
+                  </b-button>
+                </a>
+                <b-modal id="my-modal301ww"
+                  ><img
+                    class="img-fluid"
+                    src="../assets/vvvv.png"
+                    alt=""
+                  /> Electrolytes p</b-modal
+                >
+                <div class="portfolio-caption"></div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  data-toggle="modal"
+                  href="#portfolioModal5"
+                >
+                  <b-button variant="danger">
+                    <b-button v-b-modal="'my-modal301eew'">
+                      <img
+                        class="img-fluid"
+                        src="../assets/mjjj.png"
+                        alt=""
+                      /><br />
+                      nuvosel
+                    </b-button>
+                  </b-button>
+                </a>
+                <b-modal id="my-modal301eew"
+                  ><img
+                    class="img-fluid"
+                    src="../assets/mjjj.png"
+                    alt=""
+                  />nuvosel</b-modal
+                >
+                <div class="portfolio-caption"></div>
+              </div>
+            </div>
+    </div>    
   </div>
 </template>
 <style scoped>

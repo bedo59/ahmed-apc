@@ -83,6 +83,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Medical consulting.vue"),
   },
+  {
+    path: "/ni",
+    name: "ni",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ni.vue"),
+  },
 ];
 
 const router = new VueRouter({

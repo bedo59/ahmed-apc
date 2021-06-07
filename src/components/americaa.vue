@@ -19,19 +19,19 @@
                      <b-button v-b-modal="'my-modal303'">
                     <img
                       class="img-fluid"
-                      src="../assets/metnos.png"
+                      src="../assets/mm.png"
                       alt=""
                     /><br />
-                    MENTOS
+                   Respithol
                   </b-button>
                   </b-button>
                 </a>
                 <b-modal id="my-modal303"
                   ><img
                     class="img-fluid"
-                    src="../assets/metnos.png"
+                    src="../assets/mm.png"
                     alt=""
-                  />MENTOS</b-modal
+                  />Respithol</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
@@ -76,19 +76,19 @@
                      <b-button v-b-modal="'my-modal301'">
                     <img
                       class="img-fluid"
-                      src="../assets/he.png"
+                      src="../assets/ne.png"
                       alt=""
                     /><br />
-                   HEPACARNITINE
+                  Nuvo-Triforce
                   </b-button>
                   </b-button>
                 </a>
                 <b-modal id="my-modal301"
                   ><img
                     class="img-fluid"
-                    src="../assets/he.png"
+                    src="../assets/ne.png"
                     alt=""
-                  /> HEPACARNITINE</b-modal
+                  /> Nuvo-Triforce</b-modal
                 >
                 <div class="portfolio-caption"></div>
               </div>
@@ -114,7 +114,7 @@
                 <b-modal id="my-modal3011"
                   ><img
                     class="img-fluid"
-                    src="../assets/ol.png"
+                    src="../assets/mr.png"
                     alt=""
                   /> Oligo Extra</b-modal
                 >
